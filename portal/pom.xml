@@ -64,6 +64,11 @@
           ${tomcat.catalina.scope}
       </scope>
     </dependency>
+    <dependency>
+      <groupId>com.github.luposung</groupId>
+      <artifactId>cbioportal-frontend</artifactId>
+      <version>28421df-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <repositories>
@@ -98,7 +103,7 @@
             </configuration>
           </execution>
           <!-- unpack cbioportal-frontend -->
-          <execution>
+          <!-- <execution>
             <id>unpack</id>
             <phase>prepare-package</phase>
             <goals>
@@ -117,7 +122,7 @@
                 </artifactItem>
               </artifactItems>
             </configuration>
-          </execution>
+          </execution> -->
         </executions>
       </plugin>
       <!-- war plugin config -->
