@@ -103,7 +103,7 @@
             </configuration>
           </execution>
           <!-- unpack cbioportal-frontend -->
-          <!-- <execution>
+          <execution>
             <id>unpack</id>
             <phase>prepare-package</phase>
             <goals>
@@ -112,9 +112,9 @@
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>com.github.cbioportal</groupId>
+                  <groupId>com.github.luposung</groupId>
                   <artifactId>cbioportal-frontend</artifactId>
-                  <version>v2.0.1</version>
+                  <version>master-SNAPSHOT</version>
                   <type>jar</type>
                   <outputDirectory>.</outputDirectory>
                   <excludes>*index*</excludes>
@@ -122,7 +122,7 @@
                 </artifactItem>
               </artifactItems>
             </configuration>
-          </execution> -->
+          </execution>
         </executions>
       </plugin>
       <!-- war plugin config -->
