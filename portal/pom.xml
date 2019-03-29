@@ -67,7 +67,7 @@
     <dependency>
       <groupId>com.github.luposung</groupId>
       <artifactId>cbioportal-frontend</artifactId>
-      <version>28421df-SNAPSHOT</version>
+      <version>master-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
